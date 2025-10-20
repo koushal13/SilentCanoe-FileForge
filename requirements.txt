@@ -1,7 +1,22 @@
 # Core dependencies for SilentCanoe FileForge
 # Image processing
+# Core image processing libraries
 Pillow>=10.0.0
 pillow-heif>=0.13.0
+
+# Document processing libraries
+PyPDF2>=3.0.0
+beautifulsoup4>=4.12.0
+reportlab>=4.0.0
+
+# Optional: Additional format support
+python-docx>=1.1.0  # For .docx files (future enhancement)
+markdown>=3.5.0     # For markdown processing
+html2text>=2020.1.16  # For HTML to text conversion
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
 
 # PDF processing  
 PyMuPDF>=1.23.0
