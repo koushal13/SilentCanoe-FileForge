@@ -27,6 +27,19 @@ class FileType(Enum):
     ARCHIVE = "archive"
     UNKNOWN = "unknown"
 
+def get_file_extension(file_path: str) -> str:
+    """Get file extension from path."""
+    return Path(file_path).suffix.lower().lstrip('.')
+
+def get_supported_formats() -> Dict[str, List[str]]:
+    """Get all supported file formats."""
+    return {
+        'image': ['heic', 'jpg', 'jpeg', 'png', 'webp', 'tiff', 'bmp', 'gif', 'ico'],
+        'document': ['pdf', 'docx', 'xlsx', 'pptx', 'txt', 'rtf', 'html', 'md'],
+        'audio': ['mp3', 'wav', 'flac', 'aac', 'ogg', 'm4a', 'wma'],
+        'video': ['mp4', 'avi', 'mkv', 'mov', 'wmv', 'flv', 'webm', '3gp']
+    }
+
 @dataclass
 class ConversionJob:
     """Represents a single file conversion job"""

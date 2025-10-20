@@ -19,8 +19,8 @@ __description__ = "Universal File Conversion and Manipulation Toolkit"
 
 # Core modules
 from .core import FileProcessor, BatchProcessor, ConversionEngine
-from .converters import *
 from .utils import *
+# from .converters import *
 
 __all__ = [
     'FileProcessor',
