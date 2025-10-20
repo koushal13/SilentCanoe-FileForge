@@ -20,6 +20,36 @@
 
 A comprehensive, open-source file processing suite that handles conversion between virtually any file format. Built by [SilentCanoe](https://silentcanoe.com) to make file conversion effortless and powerful.
 
+## 🚀 Quick Start - Try It Now!
+
+### 🖥️ **GUI Demo** (Instant Launch)
+```bash
+python demo.py
+```
+- Professional file analyzer with drag-and-drop interface
+- Interactive directory browser with file tree view
+- Detailed file information reports with conversion suggestions
+
+### 💻 **CLI Demo** (Full Feature Set)
+```bash
+# Analyze any file
+python fileforge_cli.py analyze yourfile.jpg
+
+# Browse directories
+python fileforge_cli.py list /your/directory --recursive
+
+# Get JSON output for automation
+python fileforge_cli.py analyze document.pdf --json
+
+# Launch GUI from command line
+python fileforge_cli.py gui
+
+# See all available commands
+python fileforge_cli.py --help
+```
+
+> **🎯 Ready to Use**: Both demo versions are fully functional and showcase the core file analysis capabilities!
+
 ## ✨ Features
 
 ### 🖼️ **Image Processing**
