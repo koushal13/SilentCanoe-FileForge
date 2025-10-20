@@ -1,0 +1,30 @@
+# Core dependencies for SilentCanoe FileForge
+# Image processing
+Pillow>=10.0.0
+pillow-heif>=0.13.0
+
+# PDF processing  
+PyMuPDF>=1.23.0
+
+# GUI
+tkinter  # Usually included with Python
+
+# Audio/Video processing (requires FFmpeg to be installed separately)
+# FFmpeg can be downloaded from: https://ffmpeg.org/download.html
+
+# Optional dependencies for enhanced functionality
+# Document conversion (install LibreOffice for full document support)
+# OCR capabilities (install Tesseract-OCR for text recognition)
+# pandoc (for advanced document conversions)
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Packaging
+setuptools>=68.0.0
+wheel>=0.41.0
+twine>=4.0.0
