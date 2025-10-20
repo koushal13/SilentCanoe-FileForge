@@ -1,10 +1,22 @@
 # 🔧 SilentCanoe FileForge
 
+<div align="center">
+
 **Universal File Conversion and Manipulation Toolkit**
 
+[![GitHub release](https://img.shields.io/github/release/koushal13/SilentCanoe-FileForge.svg)](https://github.com/koushal13/SilentCanoe-FileForge/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/silentcanoe/fileforge)
+[![Build Status](https://github.com/koushal13/SilentCanoe-FileForge/workflows/CI%2FCD%20Pipeline/badge.svg)](https://github.com/koushal13/SilentCanoe-FileForge/actions)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/koushal13/SilentCanoe-FileForge)
+[![GitHub stars](https://img.shields.io/github/stars/koushal13/SilentCanoe-FileForge.svg?style=social&label=Star)](https://github.com/koushal13/SilentCanoe-FileForge)
+[![GitHub forks](https://img.shields.io/github/forks/koushal13/SilentCanoe-FileForge.svg?style=social&label=Fork)](https://github.com/koushal13/SilentCanoe-FileForge/fork)
+
+<img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen" alt="Status">
+<img src="https://img.shields.io/badge/Maintenance-Active-brightgreen" alt="Maintenance">
+<img src="https://img.shields.io/badge/SilentCanoe-FileForge-blue?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="SilentCanoe">
+
+</div>
 
 A comprehensive, open-source file processing suite that handles conversion between virtually any file format. Built by [SilentCanoe](https://silentcanoe.com) to make file conversion effortless and powerful.
 

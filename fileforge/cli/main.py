@@ -35,27 +35,43 @@ class FileForgeConsole:
     def create_parser(self) -> argparse.ArgumentParser:
         """Create the main argument parser"""
         parser = argparse.ArgumentParser(
-            description='SilentCanoe FileForge - Universal File Conversion Toolkit',
+            description='🔧 SilentCanoe FileForge - Universal File Conversion Toolkit\n'
+                       'Convert between virtually any file format with ease!',
             formatter_class=argparse.RawDescriptionHelpFormatter,
             epilog="""
-Examples:
-  # Convert single image
+✨ Examples:
+  
+📸 Image Conversions:
   fileforge convert image photo.heic photo.jpg --quality 90
+  fileforge convert image picture.png picture.webp --quality 85
+  fileforge batch images *.heic --to jpg --recursive --threads 8
   
-  # Convert PDF to Word
+📄 Document Operations:
   fileforge convert document report.pdf report.docx
-  
-  # Batch convert images
-  fileforge batch images *.heic --to jpg --recursive
-  
-  # PDF operations
   fileforge pdf merge file1.pdf file2.pdf merged.pdf
-  fileforge pdf split document.pdf --pages 1-5,10-15
+  fileforge pdf split document.pdf --pages 1-10,15-20
+  fileforge pdf compress large.pdf small.pdf --level high
   
-  # Media conversions
+🎵 Audio/Video Conversions:
   fileforge convert audio song.flac song.mp3 --quality high
-  fileforge convert video movie.avi movie.mp4 --resolution 720p
-            """
+  fileforge convert video movie.avi movie.mp4 --resolution 1080p
+  
+🚀 Advanced Usage:
+  fileforge batch videos *.mov --to mp4 --resolution 720p --threads 4
+  fileforge gui  # Launch graphical interface
+  fileforge info photo.heic  # Get file information
+  fileforge formats  # List supported formats
+  
+💡 Pro Tips:
+  • Use --dry-run to preview operations without making changes
+  • Add --preserve-metadata to keep original file information
+  • Try --progress for detailed progress tracking
+  • Use --help with any subcommand for specific options
+  
+🌐 More info: https://github.com/koushal13/SilentCanoe-FileForge
+📚 Documentation: https://silentcanoe.com
+"""
+        )
         )
         
         subparsers = parser.add_subparsers(dest='command', help='Available commands')
