@@ -1,0 +1,54 @@
+# GitHub Pages Configuration
+
+# Site settings
+title: "Koushal - Open Source Developer & Freelancer"
+description: "Professional portfolio showcasing open-source projects and freelance development services"
+baseurl: ""
+url: "https://koushal13.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .git
+  - .gitignore
+
+# Include files
+include:
+  - .htaccess
+  - _pages
+
+# Plugin settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO settings
+author: Koushal
+twitter:
+  username: koushal13
+social:
+  name: Koushal
+  links:
+    - https://github.com/koushal13
+
+# Default layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
